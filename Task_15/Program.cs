@@ -19,5 +19,5 @@ if (0 < number && number < 8)
 }
 else
 {
-    Console.WriteLine("число не соответствует дню недели");
+    Console.WriteLine("Введенное число не соответствует дню недели");
 }
