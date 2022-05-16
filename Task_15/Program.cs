@@ -8,13 +8,13 @@ Console.WriteLine("Введите цифру, обозначающую день 
 int number = int.Parse(Console.ReadLine());
 if (0 < number && number < 8)
 {
-    if (number == 1 || number == 2 || number == 3 || number == 4 || number == 5)
+    if (number == 6 || number == 7)
     {
-        Console.WriteLine("Нет");
+        Console.WriteLine("Да");
     }
     else
     {
-        Console.WriteLine("Да");
+        Console.WriteLine("Нет");
     }
 }
 else
